@@ -1,0 +1,9 @@
+# node modules anywhere in the project would be ignored
+node_modules/
+
+# ingore the dist folder completely from git
+dist/
+
+
+.env
+
