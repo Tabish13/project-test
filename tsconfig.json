@@ -20,7 +20,7 @@
         "src/**/*"
     ],
     "exclude": [
-        "src/tools/**/*",
+        "src/tools/**/*",        
         "logs.*"
     ]
 }
