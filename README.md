@@ -1,6 +1,13 @@
 # Project-Test
 REST API for football team data
 
+
+### npm Install packages
+```
+npm install 
+npm install --dev
+```
+
 ### To run the application in dev mode 
 > npm run dev
 
