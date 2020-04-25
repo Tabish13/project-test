@@ -1,8 +1,9 @@
 # node modules anywhere in the project would be ignored
 node_modules/
 
-# ingore the dist folder completely from git
+# ingore this folder completely from git
 dist/
+*/logs.*
 
 
 .env
