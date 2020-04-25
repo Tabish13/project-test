@@ -19,6 +19,10 @@ Where nodemon --watch help to restart any changes in the src folder.
 Tool that can be used to copy the static content which are needed from the src to dist.
 Get run while running running the npm run build command
 
+### To run test cases
+> npm run test
+This will build and run test case from the build source
+
 ## Available Endpoints:
 
 *Get all team:*
