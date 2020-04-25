@@ -22,7 +22,7 @@
     "rules": {
         "no-console": 0,
         "valid-jsdoc" : 0,
-        "no-unused-vars":1,
-        "new-cap":1
+        "no-unused-vars":0,
+        "new-cap":0
     }
 }

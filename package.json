@@ -11,7 +11,7 @@
     "dev:start": "npm-run-all build start",
     "dev": "nodemon --watch 'src/**/*' --exec ts-node src/bin/www.ts",
     "start": "node ./dist/bin/www",    
-    "test": "npm run build && mocha --file ./src/tests/test_teams.js"    
+    "test": "npm run build && mocha --file ./dist/tests/test-teams.js"    
   },
   "dependencies": {
     "chai": "^4.2.0",

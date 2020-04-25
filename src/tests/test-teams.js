@@ -23,9 +23,11 @@ describe('Football Teams', () => {
     it('it should POST a new Football Teams', (done) => {
       chai.request(server)
           .post('/teams')
+          .send([{'name': 'TeamFootball', 'img': 'http://no-img.com/test.img'}])
           .end((err, res) => {
             (res).should.have.status(200);
             (res.body.status).should.be.a('boolean');
+            console.log(res.body);
             done();
           });
     });
